@@ -23,7 +23,12 @@ example: "/home/kersten/LVD690_1000000/generated-1626115116745.log".
 example: "generated-1626115116745.log".  
 
 3rd parameter: The path you want the results and working log file of the analysis saved to.  
-example: "/home/kersten/logs/lvdcalculations/LVD690_1000000".
+example: "/home/kersten/logs/lvdcalculations/LVD690_1000000".  
+
+example start command:  
+```javascript
+./levenshtein_cplusplus_calculator /home/kersten/LVD690_1000000/generated-1626115116745.log generated-1626115116745.log /home/kersten/logs/lvdcalculations/LVD690_1000000
+```
 
 # Install and use log generator Tool
 XXX
