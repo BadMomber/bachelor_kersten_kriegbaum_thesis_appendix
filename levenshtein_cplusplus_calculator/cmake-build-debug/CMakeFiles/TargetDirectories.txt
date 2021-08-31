@@ -1,0 +1,3 @@
+/Users/kersten/Documents/__projekte/_fh/_bachelor_github/levenshtein_cplusplus_calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/kersten/Documents/__projekte/_fh/_bachelor_github/levenshtein_cplusplus_calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kersten/Documents/__projekte/_fh/_bachelor_github/levenshtein_cplusplus_calculator/cmake-build-debug/CMakeFiles/levenshtein_cplusplus_calculator.dir

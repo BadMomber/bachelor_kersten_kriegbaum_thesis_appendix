@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/kersten/Documents/__projekte/_fh/_bachelor_github/levenshtein_cplusplus_calculator
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/kersten/Documents/__projekte/_fh/_bachelor_github/levenshtein_cplusplus_calculator/cmake-build-debug

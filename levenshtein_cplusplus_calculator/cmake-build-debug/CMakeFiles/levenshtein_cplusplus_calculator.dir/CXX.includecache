@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kersten/Documents/__projekte/_fh/_bachelor_github/levenshtein_cplusplus_calculator/main.cpp
+string
+-
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
+cmath
+-
+ctime
+-
+ratio
+-
+chrono
+-
+numeric
+-
+algorithm
+-
+random
+-
+
