@@ -12,7 +12,15 @@ Simply run the "deploy-elastic-stack.sh" script.
 # Levenshtein-Distance-Tool
 The Levenshtein-Distance-Tool analyses a given file and calculates its average levenshtein-distance. You can pass any readable file to it as long as the information in the file is saved line by line and text based. The tool wont analyse every line in the file. It chooses 500 random values, so the minimum number of lines in the file has to be 500.
 ## Install the tool
-XXX
+Make sure you have cmake 3.16 or newer installed.  
+
+
+Navigate to ./levenshtein_cplusplus_calculator  
+type:  
+```
+cmake .
+make
+```
 
 ## Use the tool
 The program requires 3 parameters.  
@@ -28,14 +36,6 @@ example: "/home/kersten/logs/lvdcalculations/LVD690_1000000".
 example start command:  
 ```
 ./levenshtein_cplusplus_calculator /home/kersten/LVD690_1000000/generated-1626115116745.log generated-1626115116745.log /home/kersten/logs/lvdcalculations/LVD690_1000000
-```
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
 ```
 
 # Install and use log generator Tool
