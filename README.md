@@ -26,8 +26,16 @@ example: "generated-1626115116745.log".
 example: "/home/kersten/logs/lvdcalculations/LVD690_1000000".  
 
 example start command:  
-```javascript
+```
 ./levenshtein_cplusplus_calculator /home/kersten/LVD690_1000000/generated-1626115116745.log generated-1626115116745.log /home/kersten/logs/lvdcalculations/LVD690_1000000
+```
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
 ```
 
 # Install and use log generator Tool
