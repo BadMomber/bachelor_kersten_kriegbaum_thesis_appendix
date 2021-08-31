@@ -209,7 +209,7 @@ vector<int> createUniqueValuesVector(int _numberOfValues) {
     }
 
     // starting and ending index
-    int m = 1000, n = 1499;
+    int m = 0, n = 499;
     //cout << "now in 228" << endl;
     vector<int> sub_vec = slice(uniqueValues, m, n);
 
