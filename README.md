@@ -3,11 +3,15 @@ Test files, programs and configs files for my bachelor thesis
 
 # Deploy Elastic Stack
 ## Prerequisites
-Make sure you have a Kubernetes cluster running and helm installed.  
+Make sure you have a Kubernetes cluster up and running with helm installed.  
 The tiller pod has to be deployed on your cluster.
 
 ## Deployment
-Simply run the "deploy-elastic-stack.sh" script.
+Navigate to the project root of the repository directory.  
+Then run the deploy script:  
+```
+./deploy-elastic-stack.sh
+```
 
 # Levenshtein-Distance-Tool
 The Levenshtein-Distance-Tool analyses a given file and calculates its average levenshtein-distance. You can pass any readable file to it as long as the information in the file is saved line by line and text based. The tool wont analyse every line in the file. It chooses 500 random values, so the minimum number of lines in the file has to be 500.
