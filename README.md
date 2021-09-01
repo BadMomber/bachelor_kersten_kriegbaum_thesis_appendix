@@ -10,6 +10,14 @@ The test data I have used in my bachelor thesis can be viewed and downloaded her
 Make sure you have a Kubernetes cluster up and running with helm installed.  
 The tiller pod has to be deployed on your cluster.
 
+## Config
+The config I used for my test runs can be found here:  
+```
+./helm-charts-elastic/elasticsearch/values.yaml
+./helm-charts-elastic/filebeat/values.yaml
+./helm-charts-elastic/kibana/values.yaml
+```
+
 ## Deployment
 Navigate to the project root of the repository directory.  
 Then run the deploy script:  
