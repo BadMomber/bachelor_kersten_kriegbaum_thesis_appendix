@@ -43,8 +43,42 @@ example start command:
 ```
 
 # Install and use log generator Tool
-XXX
+Make sure you have the latest version of nodejs up and running.  
+Switch to ./node_log_generator.  
+type:  
+```
+npm i
 
+node index.js
+```
+  
+To generate random log-messages, you have to send q request to the running node server.  
+curl example:  
+```
+curl -XGET http://localhost:8001\?number\=100000\&lvd\=690
+```
+The "number" parameter defines the number of log messages you want to generate.  
+The "number" parameter accepts any given value between 0 and n.
+The "lvd" parameter defines the average levenshtein-distance the generated log file will have.  
+  
+The "lvd" parameter accepts the following values:  
+980  
+690  
+350  
+90  
+6  
+  
+To define the path the generated log file will be saved to, go to line 345 in index.js and edit the destination path.  
+The current value is:  
+```
+"/Users/kersten/logs/generated_"
+```
+
+Example for a generated file and it's path:  
+```
+/Users/kersten/logs/generated-1626099050745.log
+```
+  
 # Test data
 The test data I have used in my bachelor thesis can be viewed and downloaded here:  
 <a href="https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing</a>
