@@ -1,6 +1,10 @@
 # bachelor_kersten_kriegbaum_thesis_appendix
 Test files, programs and configs files for my bachelor thesis
 
+# Test data
+The test data I have used in my bachelor thesis can be viewed and downloaded here:  
+<a href="https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing</a>
+
 # Deploy Elastic Stack
 ## Prerequisites
 Make sure you have a Kubernetes cluster up and running with helm installed.  
@@ -78,7 +82,3 @@ Example for a generated file and it's path:
 ```
 /Users/kersten/logs/generated-1626099050745.log
 ```
-  
-# Test data
-The test data I have used in my bachelor thesis can be viewed and downloaded here:  
-<a href="https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing</a>
