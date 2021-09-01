@@ -43,7 +43,14 @@ example start command:
 ```
 
 # Install and use log generator Tool
-XXX
+Make sure you have the latest version of nodejs up and running.  
+Switch to ./node_log_generator.  
+type:  
+```
+npm i
+
+node index.js
+```
 
 # Test data
 The test data I have used in my bachelor thesis can be viewed and downloaded here:  
