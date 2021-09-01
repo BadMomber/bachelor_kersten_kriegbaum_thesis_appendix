@@ -5,6 +5,16 @@ Test files, programs and configs files for my bachelor thesis
 The test data I have used in my bachelor thesis can be viewed and downloaded here:  
 <a href="https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing</a>
 
+## Levenshtein analysis results
+The results of the levenshtein-analysis made with the given tool can be found here:
+<a href="https://drive.google.com/drive/folders/1yWXwB2o2bMyOvWEg21F0QZkfxoIHh36x?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1yWXwB2o2bMyOvWEg21F0QZkfxoIHh36x?usp=sharing</a>
+
+### How to read the data from the levenshtein-analysis results CSV files
+The columns in the result CSV files represent the following values:  
+Datum/Zeit;AnzahlBerechnungen;ZeitSeitBerechnungsstart;ProzentualerFortschritt;AkkumulierteLevenshteinDistanz;AktuelleDurchschnittlicheLevenshteinDistanz
+Date/Time ; Number of calculations done so far ; Time since calculation start (ms) ; Progress in % ; Accumulated distance ; actual average levenshtein-distance  
+
+
 # Deploy Elastic Stack
 ## Prerequisites
 Make sure you have a Kubernetes cluster up and running with helm installed.  
