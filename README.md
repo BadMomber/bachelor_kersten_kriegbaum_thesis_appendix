@@ -11,9 +11,9 @@ The results of the levenshtein-analysis made with the given tool can be found he
 
 ### How to read the data from the levenshtein-analysis results CSV files
 The columns in the result CSV files represent the following values:  
-Datum/Zeit;AnzahlBerechnungen;ZeitSeitBerechnungsstart;ProzentualerFortschritt;AkkumulierteLevenshteinDistanz;AktuelleDurchschnittlicheLevenshteinDistanz
+```
 Date/Time ; Number of calculations done so far ; Time since calculation start (ms) ; Progress in % ; Accumulated distance ; actual average levenshtein-distance  
-
+```
 
 # Deploy Elastic Stack
 ## Prerequisites
