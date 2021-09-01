@@ -68,10 +68,17 @@ The "lvd" parameter accepts the following values:
 90  
 6  
   
-The generated log file will be saved to the root dir of your file system with the actual timestamp in its name.
-example:  
-/generated-1626099050745.log
+To define the path the generated log file will be saved to, go to line 345 in index.js and edit the destination path.  
+The current value is:  
+```
+"/Users/kersten/logs/generated_"
+```
 
+Example for a generated file and it's path:  
+```
+/Users/kersten/logs/generated-1626099050745.log
+```
+  
 # Test data
 The test data I have used in my bachelor thesis can be viewed and downloaded here:  
 <a href="https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1V3JcyewofwLccz01Bwu5aGGxDB3zvXir?usp=sharing</a>
