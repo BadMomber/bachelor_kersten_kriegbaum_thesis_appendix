@@ -51,6 +51,25 @@ npm i
 
 node index.js
 ```
+  
+To generate random log-messages, you have to send q request to the running node server.  
+curl example:  
+```
+curl -XGET http://localhost:8001\?number\=100000\&lvd\=690
+```
+The "number" parameter defines the number of log messages you want to generate.  
+The "number" parameter accepts any given value between 0 and n.
+The "lvd" parameter defines the average levenshtein-distance the generated log file will have.  
+The "lvd" parameter accepts the following values:  
+980  
+690  
+350  
+90  
+6  
+  
+The generated log file will be saved to the root dir of your file system with the actual timestamp in its name.
+example:  
+/generated-1626099050745.log
 
 # Test data
 The test data I have used in my bachelor thesis can be viewed and downloaded here:  
